@@ -1,0 +1,12 @@
+../Core/Src/rfcom.c:37:6:DelayMs	24	static
+../Core/Src/rfcom.c:49:6:DelayUs	24	static
+../Core/Src/rfcom.c:61:6:ce_high	8	static
+../Core/Src/rfcom.c:74:6:ce_low	8	static
+../Core/Src/rfcom.c:88:6:tx_addr_wr	24	static
+../Core/Src/rfcom.c:111:6:nrf_verify	24	static
+../Core/Src/rfcom.c:185:6:rf_rx_INIT	16	static
+../Core/Src/rfcom.c:253:6:nrf_cmd_wr	24	static
+../Core/Src/rfcom.c:273:6:nrf_cmd_rd	24	static
+../Core/Src/rfcom.c:293:5:nrf_msg_check	16	static
+../Core/Src/rfcom.c:314:6:nrf_prx_init	8	static
+../Core/Src/rfcom.c:326:9:nrf_rf_rx	32	static

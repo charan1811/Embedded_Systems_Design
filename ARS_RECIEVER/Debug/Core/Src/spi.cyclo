@@ -1,0 +1,14 @@
+../Core/Src/spi.c:21:6:spi2_init	1
+../Core/Src/spi.c:62:6:spi1_enable	1
+../Core/Src/spi.c:75:6:spi_disable	1
+../Core/Src/spi.c:88:6:spi_csn_HIGH	1
+../Core/Src/spi.c:100:6:spi_csn_LOW	1
+../Core/Src/spi.c:112:6:spi_write	5
+../Core/Src/spi.c:142:6:spi_read	3
+../Core/Src/spi.c:161:6:spi1_init	1
+../Core/Src/spi.c:194:6:spi2_enable	1
+../Core/Src/spi.c:207:6:spi2_disable	1
+../Core/Src/spi.c:220:6:spi2_csn_HIGH	2
+../Core/Src/spi.c:233:6:spi2_csn_LOW	2
+../Core/Src/spi.c:247:6:spi2_write	5
+../Core/Src/spi.c:274:6:spi2_read	3
