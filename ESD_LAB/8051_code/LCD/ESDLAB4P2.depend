@@ -1,0 +1,27 @@
+# depslib dependency file v1.0
+1700437481 source:c:\users\manda\documents\esd\lab4\esdlab4p2\main.c
+	"LCD.h"
+	"uart.h"
+
+1700437376 source:c:\users\manda\documents\esd\lab4\esdlab4p2\lcd.c
+	"LCD.h"
+
+1700438381 c:\users\manda\documents\esd\lab4\esdlab4p2\lcd.h
+	<at89c51ed2.h>
+	<mcs51/8051.h>
+	<stdint.h>
+	<stdio.h>
+	<stdint.h>
+	<stdlib.h>
+	<mcs51reg.h>
+	<math.h>
+
+1700438198 source:c:\users\manda\documents\esd\lab4\esdlab4p2\uart.c
+	"uart.h"
+
+1700438413 c:\users\manda\documents\esd\lab4\esdlab4p2\uart.h
+	<at89c51ed2.h>
+	<mcs51/8051.h>
+	<stdint.h>
+	<stdio.h>
+

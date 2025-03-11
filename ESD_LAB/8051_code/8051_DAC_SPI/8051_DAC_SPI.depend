@@ -1,0 +1,22 @@
+# depslib dependency file v1.0
+1700439712 source:c:\users\manda\documents\esd\lab4\8051_dac_spi\main.c
+	"SPI.h"
+	"uart.h"
+
+1700440817 source:c:\users\manda\documents\esd\lab4\8051_dac_spi\spi.c
+	"SPI.h"
+
+1700440804 c:\users\manda\documents\esd\lab4\8051_dac_spi\spi.h
+	<at89c51ed2.h>
+	<stdio.h>
+	<stdint.h>
+
+1700439141 source:c:\users\manda\documents\esd\lab4\8051_dac_spi\uart.c
+	"uart.h"
+
+1700439130 c:\users\manda\documents\esd\lab4\8051_dac_spi\uart.h
+	<at89c51ed2.h>
+	<mcs51/8051.h>
+	<stdint.h>
+	<stdio.h>
+

@@ -1,0 +1,35 @@
+Name     ESD1 ;
+PartNo   001 ;
+Date     08-09-2023 ;
+Revision 01 ;
+Designer Engineer1 ;
+Company  University of Colorado ;
+Assembly None ;
+Location None ;
+Device   g16v9a ;
+
+/* *************** INPUT PINS *********************/
+PIN 2    =   A15 ;
+PIN 3    =   A14 ;
+PIN 5    =   A13 ;
+PIN 6    =   A12 ;
+PIN 7    =   RD  ;
+PIN 8    =   PSEN ;
+PIN 9    =   WR;
+PIN 13   =   A10;
+PIN 14   =   A11;
+
+/* *************** OUTPUT PINS *********************/
+PIN 16    =  READ ;
+PIN 12    =  CSPERIPH ;
+PIN 15    =  CSEL;
+PIN 17	   =  EN;
+
+/* *************** OUTPUT PINS *********************/
+
+READ = (RD & PSEN) ;
+CSPERIPH = !(A15 & A14 & A13 & A12) ;
+
+CSEL = !((A10 # A11 # A12 # A13 # A14) & !A15);
+
+EN = (A15 & (!(RD & WR)));

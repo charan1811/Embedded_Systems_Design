@@ -1,0 +1,22 @@
+-muwx
+-i bin\Release\8051_DAC_SPI.ihx
+-M
+-Y
+-C 0x8000
+-b HOME = 0x2000
+-b XSEG = 0x0400
+-b PSEG = 0x0400
+-b ISEG = 0x0000
+-b BSEG = 0x0000
+-k C:\Program Files\sdcc\lib
+-k C:\Program Files\SDCC\bin\..\lib\large
+-l mcs51
+-l libsdcc
+-l libint
+-l liblong
+-l libfloat
+obj\Release\main.rel
+obj\Release\SPI.rel
+obj\Release\uart.rel
+
+-e

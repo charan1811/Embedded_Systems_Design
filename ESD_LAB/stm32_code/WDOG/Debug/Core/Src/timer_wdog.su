@@ -1,0 +1,4 @@
+../Core/Src/timer_wdog.c:16:6:WWDG_IRQHandler	4	static
+../Core/Src/timer_wdog.c:25:6:run_wdog_loop	16	static
+../Core/Src/timer_wdog.c:55:6:init_wdog_timer	8	static
+../Core/Src/timer_wdog.c:80:6:delay	16	static
